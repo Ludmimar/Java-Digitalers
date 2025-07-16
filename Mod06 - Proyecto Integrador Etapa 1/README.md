@@ -1,4 +1,5 @@
-Enunciado general: Sistema para una fintech
+Sistema para una fintech
+
 Diseñar e implementar un sistema de gestión
 para una fintech que ofrece servicios bancarios
 a sus clientes.
