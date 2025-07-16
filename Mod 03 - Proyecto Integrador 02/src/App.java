@@ -7,7 +7,7 @@ public class App {
     }
 
     public static void pedirCredenciales() {
-        String usuarioCorrecto = "admin";
+        String usuarioCorrecto = "administrador";
         String passwordCorrecta = "administrador.1234";
         Scanner entrada = new Scanner(System.in);
 
