@@ -9,6 +9,7 @@ como depósitos y retiros, y mantener un registro
 de los movimientos realizados en cada cuenta.
 
 Características del sistema
+
 ● Gestión de clientes: El sistema debe permitir
 la creación, modificación y eliminación de
 clientes. Cada cliente debe tener un
@@ -27,7 +28,6 @@ transacción, el monto y la fecha.
 ● Consulta de saldo: El sistema debe permitir a
 los clientes consultar el saldo actual de sus
 cuentas.
-
 ● El sistema se debe implementar mediante el
 paradigma de Programación Orientada a
 Objetos (POO).
