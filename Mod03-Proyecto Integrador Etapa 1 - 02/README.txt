@@ -1,28 +1,49 @@
-Una reconocida Entidad Bancaria está en la
-búsqueda de Desarrolladores Backend Java Jr.,
-Ssr. y Sr. Para que puedan postularse, se debe
-crear una aplicación que valide el ingreso a la
-plataforma de Online Banking a través de una
-clave Token.
-Se debe tener en cuenta lo siguiente:
-● La Clave Token debe ser un número aleatorio
-de 6 dígitos.
-● El cliente debe ingresar los campos Usuario,
-Contraseña y Clave Token (todos obligatorios).
-● El campo Usuario no distingue minúsculas
-o mayúsculas.
-● El campo Contraseña es sensible a las
-minúsculas y mayúsculas.
-El cliente solo posee 3 intentos de logueo. Si
-alcanza los 3 intentos fallidos de forma
-consecutiva, la aplicación deberá informar al
-usuario que debe dirigirse a la sucursal del
-banco más cercana para poder desbloquear
-sus credenciales.
-● Por cada intento fallido, la aplicación debe
-preguntar al cliente si desea continuar
-colocando las credenciales de manera
-correcta.
-● Si el cliente coloca las credenciales de forma
-correcta, deberá informar que ha ingresado
-correctamente al Online Banking.
+# 🏦 Validación de Ingreso a Online Banking con Clave Token
+
+## Descripción del Proyecto
+Este proyecto consiste en una aplicación desarrollada en **Java** que simula el proceso de validación de ingreso a la plataforma de **Online Banking** de una entidad bancaria.  
+
+El objetivo es garantizar que los clientes puedan autenticarse de manera segura mediante el uso de un **Token aleatorio de 6 dígitos**, además de sus credenciales tradicionales (Usuario y Contraseña).
+
+---
+
+## Requerimientos Funcionales
+- La **Clave Token** es un número aleatorio de 6 dígitos que se genera al iniciar la aplicación.
+- El cliente debe ingresar los siguientes campos (todos obligatorios):
+  - **Usuario** (no distingue mayúsculas/minúsculas)
+  - **Contraseña** (sensible a mayúsculas/minúsculas)
+  - **Clave Token** (6 dígitos generados aleatoriamente)
+- El cliente tiene un máximo de **3 intentos consecutivos** para ingresar correctamente sus credenciales.
+- Tras 3 intentos fallidos consecutivos, la aplicación indicará que el usuario debe dirigirse a la **sucursal bancaria más cercana** para desbloquear sus credenciales.
+- Por cada intento fallido, la aplicación preguntará al cliente si desea **continuar intentando** ingresar las credenciales.
+- Si el cliente ingresa correctamente las credenciales, la aplicación notificará que ha ingresado con éxito al Online Banking.
+
+---
+
+## Funcionalidades
+- Generación automática de un **Token aleatorio de 6 dígitos**.
+- Validación de:
+  - Usuario (insensible a mayúsculas/minúsculas)
+  - Contraseña (sensible a mayúsculas/minúsculas)
+  - Token
+- Control de **intentos máximos** y mensajes de alerta en caso de bloqueos.
+- Mensajes claros para informar éxito o fallo en cada intento.
+- Pregunta opcional al cliente para continuar tras un intento fallido.
+
+---
+
+
+---
+
+## Tecnologías Utilizadas
+- Java SE
+- IDE recomendado: IntelliJ IDEA, Eclipse o NetBeans
+- Consola para la ejecución del programa
+
+---
+
+## Cómo Ejecutar
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/tu-usuario/online-banking-token.git
+```
