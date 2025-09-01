@@ -47,3 +47,8 @@ El objetivo es garantizar que los clientes puedan autenticarse de manera segura 
 ```bash
 git clone https://github.com/tu-usuario/online-banking-token.git
 ```
+
+📌 Autor
+
+Martos Ludmila
+#### [Linkedin](https://www.linkedin.com/in/ludmimar89/)
